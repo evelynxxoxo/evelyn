@@ -17,7 +17,9 @@
     <script>
       var Birthday = prompt("Please enter your birthday", "mm/dd/yyyy");
       Birthday = new Date(Birthday);
-      //var currentDate = new Date();
+      var currentDate = new Date();
+      var age= currentDate.getFullYear() - Birthday.getFullYear()
+      documents.wrirte(age);
     </script>
 
     <hr />
